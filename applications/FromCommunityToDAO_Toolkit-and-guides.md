@@ -3,7 +3,7 @@
 - **Team Name:** Zelma Corp OÜ
 - **Payment Details:**
     - **Payment**: 12vPHLHwBKbKjbDoPYDSjegxqVnq7FMdBwMcWugBxnYSLT9d (USDC)
-- [**Level](https://grants.web3.foundation/docs/Introduction/levels):** 1
+- **Level:** 1
 
 ## Project Overview :page_facing_up:
 
@@ -68,10 +68,6 @@ Help us locate your project in the Polkadot/Substrate/Kusama landscape and what 
 ### Team's experience
 
 We are actively following the weekly AAG shows whenever we can and recently started our weekly Office Hours where we did 12 weekly sessions already and all were fully booked. In addition we actively participate in discussions on the Polkadot Forum as well and share our thoughts and ideas on different topics, such as a discussion on the DV program, discussion on OpenGov’s liquid democracy, a discussion on the ambassador program, a discussion on sanctioning fake actors on Polkadot, discussion on the launch of People Chain and many more. Our core members attend the Decoded conference annually, along with smaller regional events whenever possible advocating for Polkadot. We publish weekly news articles based on Polkadotter’s blog, sharing them on both our website and the local news platform Cryptofalka, which has helped us reach a wider Hungarian audience. Educating our community and advocating for Polkadot remains our top priority. We hosted around 30+ Polkadot Meetups in Budapest, Hungary at Mosaic Chain’s office, now an official Polkadot hub, and this year we moved the meetup’s location to Corvinus University. During the January and February meetup we educated attendees about all aspects of Polkadot, including OpenGov, XCM, economics, and parachains as well, such as Polimec, Assethub and Hydration. With extensive experience in organizing in-person events, hackathons, project development, and DAO management, we have built a strong foundation for community engagement. Our largest event to date, Polkadot Day in March 2024, was part of Budapest Blockchain Week and attracted approximately 120 attendees.
-
-### Team Code Repos
-
-- 
 
 ### Team LinkedIn Profiles (if available)
 
