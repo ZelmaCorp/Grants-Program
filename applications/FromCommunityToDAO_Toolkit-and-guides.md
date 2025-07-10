@@ -1,189 +1,136 @@
 # From Community to DAO Tools and Guides
 
-> [!NOTE]
-> This document will be part of the terms and conditions of your agreement and, therefore, needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g., `![](image.png)` instead of `<img>`).
->
-> See the [Grants Program Process](https://grants.web3.foundation/docs/process) on how to submit a proposal.
-
-- **Team Name:** Legal name of your team (e.g. JsonCorp)
+- **Team Name:** Zelma Corp OÜ
 - **Payment Details:**
-  - **DOT**: For the **DOT** compensation, please provide a Polkadot address (e.g. 15oF4...).
-  - **Payment**: For the **USDC** portion of the payment, please provide a Polkadot AssetHub address and the currency (e.g. 15oF4... (USDC)). 
-- **[Level](https://grants.web3.foundation/docs/Introduction/levels):** 1, 2 or 3
-
-> [!IMPORTANT]
-> *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+    - **Payment**: 12vPHLHwBKbKjbDoPYDSjegxqVnq7FMdBwMcWugBxnYSLT9d (USDC)
+- [**Level](https://grants.web3.foundation/docs/Introduction/levels):** 1
 
 ## Project Overview :page_facing_up:
 
-If this application is in response to an RFP, please indicate this on the first line of this section.
-
-If this is an application for a follow-up grant (the continuation of an earlier, successful W3F grant), please provide the name and/or pull request of said grant on the first line of this section.
-
 ### Overview
 
-Please provide the following:
-
-- If the name of your project is not descriptive, a tagline (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to / integrates into Substrate / Polkadot / Kusama.
-- An indication of why your team is interested in creating this project.
+Polkadot Hungary DAO would like to research and develop tools and best practices for
+small organizations to help them become better organized, more active within
+Polkadot and easier to scale. Having a lot of experience with local and wider
+community building (online community as well as long standing regular IRL meetups)
+and community participation (active participants in Polkadot Governance and
+currently DV delegates in Cohort 4) we think that creating an easy to follow recipe
+could be a real help for small decentralized communities to thrive and grow. 
 
 ### Project Details
 
 We expect the teams to already have a solid idea about your project's expected final state. Therefore, we ask the teams to submit (where relevant):
 
-- Mockups/designs of any UI components
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is *not* or will *not* provide or implement
-  - This is a place for you to manage expectations and clarify any limitations that might not be obvious
-
-
-Things that shouldn’t be part of the application (see also our [FAQ](../docs/faq.md)):
-
-- The (future) tokenomics of your project
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+- Automated Proposal Management: Proposals are automatically imported into Notion with details like track, amount requested, links, and content. Prebuilt pages allow DAOs to evaluate proposals efficiently, followed by batch transaction preparation for multisig voting. Post-vote statuses update automatically in the Notion (e.g., ‘Voted Aye’; the extrinsic of the vote and the date of the vote).
+- Proxy Voting Flexibility: Votes are cast from a proxy address controlled by the DAO’s multisig, enabling member adjustments without losing delegations.
+- Time and Cost Efficiency: Using Mimir’s batching tool, multiple votes are cast instantly for a single $0.3 transaction fee. (Thank you for Mimir’s effort again for the collaboration!) This contrasts with manual voting, where 10-20 weekly votes in a 4/7 multisig could cost $12-$24 and take 15-20 minutes. For 400+ proposals in a cohort, costs drop from $150-$200 to just a $10-20.
+- Notion Integration: Unlike tools relying on separate platforms, this tool uses Notion as a database, allowing parallel collaboration with DAO members within an existing task management system.
+- Ease of Use: It’s relatively easy to set up, inexpensive to run, unit-tested, and well-documented for modifications and startup.
 
 ### Ecosystem Fit
 
 Help us locate your project in the Polkadot/Substrate/Kusama landscape and what problems it tries to solve by answering each of these questions:
 
 - Where and how does your project fit into the ecosystem?
+    - General organisation and community involvement mainly OpenGov.
 - Who is your target audience (parachain/dapp/wallet/UI developers, designers, your own user base, some dapp's userbase, yourself)?
+    - Any community or emerging DAO wishing to better organise themselves can use it.
 - What need(s) does your project meet?
+    - Makes it easier to participate in OpenGov voting for communities
 - How did you identify these needs? Please provide evidence in the form of (scientific) articles, forum discussions, case studies, or raw data.
+    - The need emerged from our own experience when we decided to participate and vote on OpenGov as a DAO and amplified when we become DVs.
 - Are there any other projects similar to yours in the Substrate / Polkadot / Kusama ecosystem?
-  - If so, how is your project different? Please identify and assess any projects addressing the same need and explain how your project is distinct. Feel free to include applicable research data, statistics, or metrics.
-  - If not, please indicate why such a project might not have been possible, successful, or attempted. 
-- Are there any projects similar to yours in related ecosystems? 
+    - Permanence DAO’s Telegram bot: Their Telegram bot handles proposal evaluation via Telegram. Using OpenAI integration to summarize comments and automatically post them is efficient. Pretty powerful setup for bigger DAOs.
+    - ChaosDAO’s Discord bot: Relies on a single voting method. Hard to see from outside what the reasoning is and it’s based on social trust. Still one of the best tools available for huge DAOs still we would love to see more efforts done on making the voting mechanism more decentralized.
+    - Trustless Core’s Google Sheets: While a google sheet is a very simple UI, which can be easily managed by anybody, it isn’t customizable and automated, and requires many manual actions.
+    - Hungarian DAO’s voting tool: The tool delivers a powerful, cost-effective, and integrated solution for DAO governance. By automating workflows, reducing costs, and leveraging Notion, it offers a powerful and versatile alternative to tools like Permanence DAO’s Telegram bot and Chaos DAO’s Discord bot or Trustless Core’s google sheet. With exciting future developments, it’s a compelling choice for DAOs aiming to streamline operations.
+- Are there any projects similar to yours in related ecosystems?
+    - Not relating to voting on OpenGov we know of.
 
 ## Team :busts_in_silhouette:
 
-> [!IMPORTANT]
-> Please note that the data provided in this section is for administrative and informational purposes only. All beneficiaries of a grant must also be listed in the KYC/KYB process during the application phase. See our [FAQ](https://grants.web3.foundation/docs/faq#what-is-kyckyb-and-why-do-i-have-to-provide-this-data) for more info.
-
 ### Team members
 
-- Name of team leader
-- Names of team members
+- Peter Ott
+- Vikk, David, Spectra
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Peter Ott
+- **Contact Email:** zelma@zelmacorp.io
+- **Website:** https://polkadothungary.net/
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Harju maakond, Tallinn, Kristiine linnaosa, Kotkapoja tn 2a-10, 10615, Estonia
+- **Registered Legal Entity:** Zelma Corp OÜ
 
 ### Team's experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
-
-If anyone on your team has applied for a grant at the Web3 Foundation previously, please list the name of the project and legal entity here.
+We are actively following the weekly AAG shows whenever we can and recently started our weekly Office Hours where we did 12 weekly sessions already and all were fully booked. In addition we actively participate in discussions on the Polkadot Forum as well and share our thoughts and ideas on different topics, such as a discussion on the DV program, discussion on OpenGov’s liquid democracy, a discussion on the ambassador program, a discussion on sanctioning fake actors on Polkadot, discussion on the launch of People Chain and many more. Our core members attend the Decoded conference annually, along with smaller regional events whenever possible advocating for Polkadot. We publish weekly news articles based on Polkadotter’s blog, sharing them on both our website and the local news platform Cryptofalka, which has helped us reach a wider Hungarian audience. Educating our community and advocating for Polkadot remains our top priority. We hosted around 30+ Polkadot Meetups in Budapest, Hungary at Mosaic Chain’s office, now an official Polkadot hub, and this year we moved the meetup’s location to Corvinus University. During the January and February meetup we educated attendees about all aspects of Polkadot, including OpenGov, XCM, economics, and parachains as well, such as Polimec, Assethub and Hydration. With extensive experience in organizing in-person events, hackathons, project development, and DAO management, we have built a strong foundation for community engagement. Our largest event to date, Polkadot Day in March 2024, was part of Budapest Blockchain Week and attracted approximately 120 attendees.
 
 ### Team Code Repos
 
-- https://github.com/{your_organisation}/{project_1}
-- https://github.com/{your_organisation}/{project_2}
-
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
-
-- https://github.com/{team_member_1}
-- https://github.com/{team_member_2}
+- 
 
 ### Team LinkedIn Profiles (if available)
 
-- https://www.linkedin.com/{person_1}
-- https://www.linkedin.com/{person_2}
-
+- https://www.linkedin.com/in/ottpeter/
 
 ## Development Status :open_book:
 
-If you've already started implementing your project or it is part of a larger repository, please provide a link and a description of the code here. In any case, please provide some documentation on the research and other work you have conducted before applying. This could be:
+This voting tool was introduced to seven Polkadot community groups during our regional gathering in Warsaw this March ([**see post**](https://x.com/PolkadotHungary/status/1903541921668067837)). At this community-driven event, representatives from seven Central European Polkadot communities participated. We presented the tool’s functionality and a recommended (but configurable) method of usage. After the live demo and workshop, we forked our own Notion-based workspace, integrated with the voting tool, and shared it individually with all seven communities.
 
-- links to improvement proposals or [RFPs](https://grants.web3.foundation/docs/rfps) (requests for proposal),
-- academic publications relevant to the problem,
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to this project with anyone from the Web3 Foundation,
-- previous interface iterations, such as mock-ups and wireframes.
+To our knowledge, one of them, Bohemia Fam, aka the [**Czechish DAO**](https://x.com/BohemiaFam) has actively adopted the tool and continues to use it. They have also expressed interest in using it regularly going forward. This shows that some actors within the Polkadot ecosystem are not only interested in but already using the voting tool we’ve developed. We believe this tool can be especially useful for small, locally-organized communities and DAOs, where decision-making processes benefit from lightweight, adaptable governance tools.
+
+It is being constantly tested and refined to ensure ease of use for other communites.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. To assist you in defining it, we have created a document with examples for some grant categories [here](../docs/Support%20Docs/grant_guidelines_per_category.md). Since these will be part of the agreement, it helps to describe *the functionality we should expect in as much detail as possible*, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**. In the descriptions, it should be clear how your project is related to Substrate, Kusama or Polkadot. We *recommend* that teams structure their roadmap as 1 milestone ≈ 1 month.
-
-> [!CAUTION]
-> If any of your deliverables are based on somebody else's work, make sure you work and publish *under the terms of the license* of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Projects that submit other people's work without proper attribution will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the [level](../README.md#level_slider-levels) of funding requested.
-- **DOT %:** Percentage of Total Costs to be paid in (vested) DOT (≥ 50%)
+- **Total Estimated Duration:** 4 months
+- **Full-Time Equivalent (FTE):** 4 FTE
+- **Total Costs:** 8,820 USD
+- **DOT %:** 0
 
 ### Milestone 1 Example — Basic functionality
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-> [!NOTE]
-> **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one.
+- **Estimated duration:** 4 month
+- **FTE:** 4
+- **Costs:** 8,820 USD
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
+| --- | --- | --- |
 | **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#license) for details. |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#documentation) for details. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. See the [delivery guidelines](https://grants.web3.foundation/docs/Support%20Docs/milestone-deliverables-guidelines#testing-guide) for details. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language, and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
-
-
-### Milestone 2 Example — Additional features
-
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
-
-...
-
+| **0b.** | Documentation | [https://www.notion.so/polkadothungarydao/DAO-Tools-1cc431027d5b8023bf64d816cfc4e44b](https://www.notion.so/DAO-Tools-1cc431027d5b8023bf64d816cfc4e44b?pvs=21) |
+| **0c.** | Testing and Testing Guide | [https://www.notion.so/polkadothungarydao/How-to-setup-the-Voting-tool-for-Notion-to-your-DAO-1aa431027d5b8085b54cde6f7df67b2f](https://www.notion.so/How-to-setup-the-Voting-tool-for-Notion-to-your-DAO-1aa431027d5b8085b54cde6f7df67b2f?pvs=21) |
+| **0d.** | Docker | n/a |
+| 0e. | Article | https://forum.polkadot.network/t/status-update-on-the-development-of-a-notion-based-voting-tool-for-emerging-communities-and-smaller-daos-active-in-opengov/13469 |
 
 ## Future Plans
 
-Please include here
-
-- how you intend to finance the project's long-term maintenance and development,
-- how you intend to use, enhance, and promote your project in the short term, and
-- the team's long-term plans and intentions in relation to it.
+- Decentralized Version: Plans include a decentralized alternative with DAO management tools and a simplified self-hosted setup.
+- Simplified Installation: A setup interface requiring just a Notion API key could make deployment even easier on a VPS or self-hosted environment.
+- Browser Extension: An augmented layer (e.g., a custom extension) could enable proposal evaluation directly on platforms like Polkassembly, with DAO members annotating thoughts in real-time, similar to Idriss.xyz’s Twitter tipping layer.
 
 ## Referral Program (optional) :moneybag:
 
 You can find more information about the program [here](https://grants.web3.foundation/docs/referral-program).
 
-- **Referrer:** Name of the Polkadot Ambassador or GitHub account of the Web3 Foundation grantee
-- **Payment Address:** Polkadot/Kusama (USDC) payment address. Please also specify the currency. (e.g. 15oF4... (USDC))
+- **Referrer:** n/a
+- **Payment Address:** n/a
 
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Grants Program?** Web3 Foundation Website / Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
 
+- Team member
+
 Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
 
 - Work you have already done.
 - If there are any other teams who have already contributed (financially) to the project.
+    - The PIF programme contributed to the early stages.
 - Previous grants you may have applied for.
+    - Participated in the PIF programme where the idea of creating a tool for a broader audience was finalised.
